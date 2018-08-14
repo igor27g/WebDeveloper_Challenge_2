@@ -1,0 +1,586 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+/*    FONTS */
+}
+
+
+/* Defaults */
+
+.section {
+    width: 100vw;
+    height: auto;
+}
+
+
+/* ----------------------------------------------- */
+
+/* NAVBAR */
+
+
+/* ----------------------------------------------- */
+
+
+.navbar-nav li.nav-item.active a.nav-link:link, 
+.navbar-nav li.nav-item.active a.nav-link:visited,
+.navbar-nav li.nav-item a.nav-link:link, 
+.navbar-nav li.nav-item a.nav-link:visited
+{
+    border-bottom: 2px solid transparent; 
+    transition: border-bottom 1.8s;
+}
+ 
+
+.navbar-nav li.nav-item.active a.nav-link:hover {
+    border-top: 2px solid #ff6033;
+}
+
+.navbar-nav li.nav-item a.nav-link:hover {
+    border-top: 2px solida red;
+}
+
+
+
+/* ----------------------------------------------- */
+
+/* SECTION-1 */
+
+/* ----------------------------------------------- */
+
+
+.container-fluid  .section-1 {
+    height: 1086px;
+    background-image: url(../img/background1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+.container-fluid > .row .section-1 {
+  
+/*    background-size: cover;*/
+}
+
+
+.row .section-1 {
+    position: relative;
+}
+.section-1  h2 {
+    padding: 250px 0 35px 165px;
+}
+
+.section-1 p {
+    padding: 0 0 30px 165px;
+}
+
+.section-1 button {
+    width: 200px;
+    height: 55px;
+    background-color: #ff6033;
+    border: #ff6033;
+    text-transform: uppercase;
+    margin: 0 0 490px 165px;
+}
+
+.section-1 button:hover {
+    background-color: #d65632;
+    border: #d65632;
+}
+
+.col-12 img {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding:  0 0 165px 0;
+}
+
+/* ----------------------------------------------- */
+
+/* SECTION-2 */
+
+/* ----------------------------------------------- */
+
+.section-2 {
+    background-color: #00bfbf;
+    background-image: radial-gradient(circle 1125px at center, rgba(0, 196, 196, 0.9) 0%, rgba(0, 183, 183, 0.9) 32%, rgba(0, 173, 173, 0.9) 68%, rgba(0, 156, 156, 0.9) 100%);
+}
+
+.section-2 h2 {
+    margin: 180px 0 35px 94px;
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 27px;
+    font-family: Raleway;
+}
+
+.section-2 p.lead {
+   color: #ffffff;
+   font-family: Raleway;
+   font-size: 17px;
+   font-weight: 300;
+   line-height: 27px;
+   margin: 0 0 0 95px;
+}
+
+
+/* ----------------------------------------------- */
+
+/* SECTION-3 */
+
+/* ----------------------------------------------- */
+
+.section-3 {
+    background-color: #70bfff;
+}
+
+.section-3 h2 {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 27px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+.section-3 .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-3 button {
+    width: 400px;
+    height: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    margin: 20px;
+
+    color: #262626;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.section-3 button:first-child {
+    margin: 180px 0 20px 0;
+}
+
+.section-3 button:last-child {
+    margin: 20px 0 150px 0;
+}
+
+.section-3 button > img {
+    width: 55px;
+    height: 49px;
+    margin-left: 65px;
+
+}
+
+.section-3 button > .text {
+    padding-left: 54px;
+}
+
+.section-3 button > .text-global-1 {
+    margin-right: 76px;
+}
+
+.section-3 button > .text-global-2 {
+    margin-right: 91px;
+}
+
+
+.section-3  img.global {
+    margin-left: 58px;
+    position: absolute;
+    top: 57%;
+    left: 56%;
+}
+
+
+ 
+
+/* ----------------------------------------------- */
+
+/* SECTION-4 */
+
+/* ----------------------------------------------- */
+
+.section-4 {
+    background-color: #ffe92f;
+    height: 1536px;
+}
+
+
+.section-4 h2 {
+    color: #262626;
+    font-family: Raleway;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 27px;
+    padding: 100px 0 30px 0;
+}
+.section-4 p {
+    color: #262626;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    padding: 30px 0 46px 0;
+    text-align: center;
+}
+
+
+.section-4 > .photo-1 {
+    width: 770px;
+    height: 550px;
+    padding: 0;
+    margin: 0 30px 0 179px;
+}
+
+.section-4 > .photos-1  img.dish-2 {
+    padding-bottom: -3px;
+}
+
+{
+    padding-top: 30px;
+}
+img.dish-3.img-fluid,
+img.dish-4.img-fluid,
+img.dish-5.img-fluid
+{
+    padding-top: 30px;
+}
+
+
+
+
+.special > .photos-2 {
+    margin-left: 165px;
+    
+}
+
+.special-4 .col-md-6 > .dish-4 {
+     margin: 30px 30px 225px 165px;
+}
+  
+.special-4 .col-md-6 > .dish-5 {
+    margin-top: 30px;
+    margin-right: 165px;
+    margin-left: -2px;
+}
+
+
+
+
+.special-4 button.btn-4 {
+    width: 200px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #5585a2;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    margin-top: 50px;
+
+}
+
+/* ----------------------------------------------- */
+
+/* SECTION-5 */
+
+/* ----------------------------------------------- */
+
+.section-5 {
+    background-image: url(../img/s5.1bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+
+.section-5 h2 {
+    color: #262626;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 0 0 34px 164px;
+    padding-top: 145px;
+}
+
+.section-5 p.lead {
+    color: #262626;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-left: 163px;
+}
+
+
+.form-control {
+    display: block;
+    width: 98%;
+    height: 53px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    opacity: 0.5;
+}
+.section-5 .form-group {
+  
+    border: 1px solid #262626;
+    width: 570px;
+    height: 55px;
+    margin: 0 0 163px 165px;
+    opacity: 0.5;
+    color: #262626;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.section-5 button {
+    width: 170px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #96b92c;
+    border: 0;
+    position: absolute;
+    top: 83%;
+    left: 104%;
+    margin-bottom: 163px;
+    
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    text-transform: uppercase
+    }
+
+.section-5 button:hover {
+    background-color:  #8eaf29;
+}
+
+/* ----------------------------------------------- */
+
+/* SECTION-6 */
+
+/* ----------------------------------------------- */
+
+.section-6 {
+    background-color: #b07cf7;
+    height: 864px;   
+}
+
+.section-6 h2 {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 100px 0 50px 0;
+}
+
+.section-6 p.lead {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    padding: 0 0 47px 0;
+}
+
+.section-6 > img.photo-s6 {
+    padding-bottom: 225px;
+    background-color: black;
+}
+
+.section-6 button {
+    width: 200px;
+    height: 55px;
+    position: absolute;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #f72b3b;
+    border: 1px solid #f72b3b;
+    top: -183px;
+    left: 44%;
+    margin: 0 0 225px 0;
+}
+
+.section-6 button:hover {
+    background-color: #c62c38;
+    border: 1px solid #f72b3b;
+}
+
+/* ----------------------------------------------- */
+
+/* SECTION-7 */
+
+/* ----------------------------------------------- */
+
+.section-7 {
+    background-image: url(../img/s7.bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 866px;
+}
+
+.section-7 h2 {
+    padding: 101px 0 48px 0;
+    color: #262626;
+    font-family: Raleway;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.section-7 p.lead {
+    padding: 0 0 46px 0;
+    color: #262626;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.section-7 h5 {
+   font-family: Raleway;
+   font-size: 20px;
+   font-weight: 700;
+   color: #262626;
+   padding: 0 0 2px 0;
+}
+
+.section-7 p.contact {
+    color: #262626;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    padding: 0 0 10px 0;
+}
+
+.section-7 h5,
+.section-7 p.contact {
+    margin: 0 0 0 170px;
+}
+
+.section-7 .form-control:first-of-type {
+    font-weight: 700;
+}
+
+.section-7 .form-control {
+    margin: 0 0 15px 165px;
+    width: 500px;
+    height: 50px;
+  
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    background-color: #00c4c4;
+    opacity: 0.5;
+}
+
+.section-7 textarea.form-control  {
+    resize: none;
+    height: 250px;
+    margin: 0 0 120px 165px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.section-7 textarea.form-control::placeholder {
+    color: #ffffff;
+}
+
+
+/* ----------------------------------------------- */
+
+/* FOOTER */
+
+/* ----------------------------------------------- */
+
+footer {
+    background-color: #262626;
+    color: #ffffff;
+}
+
+.row {
+    max-width: 100%;
+}
+
+
+footer .row  .text{
+    float:left;
+    margin: 37px 295px 37px 165px;    color: #b9b9b9;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+footer .row img {
+    margin: 32px 362px 32px 0;
+}
+
+footer .row .author {
+    margin-top: 20px;
+    color: #b9b9b9;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-right: 164px;
+}
+
+footer .row .author span {
+    color: #ff2b58;
+    font-family: Raleway - Bold;
+    font-weight: 700;
+}
+
+
+/* My Footer */
+
+.page-myfooter {
+    padding: 2em 1.5em;
+    background:  #e9ebee;
+    color: #0149a1;
+    text-align: right;
+}
+
+.page-myfooter p {
+	margin: 0 auto
+}
+
+.page-myfooter p  a {
+  color: #0149a1;
+}
+
+.page-myfooter p  a:hover {
+  opacity: 0.5;
+}
