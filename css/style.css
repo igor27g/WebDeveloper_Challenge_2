@@ -1,3 +1,9 @@
+
+
+
+
+/* DEFAULTS */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,16 +12,20 @@
 
 html,
 body {
-/*    FONTS */
+
 }
 
-
-/* Defaults */
 
 .section {
     width: 100vw;
-    height: auto;
+    height: 100%;
 }
+
+
+
+/*  FONTS  */
+
+
 
 
 /* ----------------------------------------------- */
@@ -26,79 +36,113 @@ body {
 /* ----------------------------------------------- */
 
 
-.navbar-nav li.nav-item.active a.nav-link:link, 
+.navbar-nav li.nav-item.active a.nav-link:link,
 .navbar-nav li.nav-item.active a.nav-link:visited,
-.navbar-nav li.nav-item a.nav-link:link, 
-.navbar-nav li.nav-item a.nav-link:visited
-{
-    border-bottom: 2px solid transparent; 
-    transition: border-bottom 1.8s;
+.navbar-nav li.nav-item a.nav-link:link,
+.navbar-nav li.nav-item a.nav-link:visited {
+    color: #262626;
+    animation-delay: font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-top .1s;
 }
  
 
 .navbar-nav li.nav-item.active a.nav-link:hover {
     border-top: 2px solid #ff6033;
+    color: #000000;
+	border-top: 3px solid #fe6033;
+
 }
 
-.navbar-nav li.nav-item a.nav-link:hover {
-    border-top: 2px solida red;
+a.nav-link:hover {
+    border-top: 2px solid #ff6033;
+    padding: 4px 0 0 0;
+    background-color: inherit;
+    color: inherit;
 }
 
+
+
+.container.navigation-1 {margin-top: 10px;}
 
 
 /* ----------------------------------------------- */
 
-/* SECTION-1 */
+/* SECTION-HOME */
 
 /* ----------------------------------------------- */
-
-
-.container-fluid  .section-1 {
-    height: 1086px;
-    background-image: url(../img/background1.png);
-    background-repeat: no-repeat;
-    background-position: top;
-}
-
-
-.container-fluid > .row .section-1 {
-  
-/*    background-size: cover;*/
-}
-
 
 .row .section-1 {
     position: relative;
 }
-.section-1  h2 {
-    padding: 250px 0 35px 165px;
+
+
+
+.jumbotron-fluid-1 {
+    background-image: url(../img/background1.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    margin-bottom: 0px;
 }
 
-.section-1 p {
-    padding: 0 0 30px 165px;
+
+.my-jumbotron-text {letter-spacing: 0.35rem;}
+
+.section-1 p {padding: 0 0 30px 165px;}
+
+h2.my-jumbotron-text {    
+    font-family: "Raleway - Heavy";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 258px 0 34px 0;
 }
 
-.section-1 button {
+
+p.text-section-1 {
+    color: #262626;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    padding: 0 0 31px 0;
+}
+
+button.btn.btn-warning.section-1 {
     width: 200px;
     height: 55px;
     background-color: #ff6033;
     border: #ff6033;
     text-transform: uppercase;
-    margin: 0 0 490px 165px;
+    margin: 0 0 490px 0;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    text-transform: uppercase;
 }
-
-.section-1 button:hover {
+button.btn.btn-warning.section-1:hover {
     background-color: #d65632;
-    border: #d65632;
+    border: none;
 }
 
-.col-12 img {
+img.scroll-section-1 {
     position: absolute;
-    top: 100%;
+    top: 850px;
     left: 50%;
     transform: translate(-50%,-50%);
     padding:  0 0 165px 0;
+
 }
+
+
 
 /* ----------------------------------------------- */
 
@@ -109,15 +153,16 @@ body {
 .section-2 {
     background-color: #00bfbf;
     background-image: radial-gradient(circle 1125px at center, rgba(0, 196, 196, 0.9) 0%, rgba(0, 183, 183, 0.9) 32%, rgba(0, 173, 173, 0.9) 68%, rgba(0, 156, 156, 0.9) 100%);
+    height: 100%;
 }
 
 .section-2 h2 {
-    margin: 180px 0 35px 94px;
     color: #ffffff;
     font-size: 90px;
     font-weight: 700;
     line-height: 27px;
-    font-family: Raleway;
+    margin: 180px 0 35px 94px;
+    padding-bottom: 35px;
 }
 
 .section-2 p.lead {
@@ -138,6 +183,7 @@ body {
 
 .section-3 {
     background-color: #70bfff;
+    height: 100%; 
 }
 
 .section-3 h2 {
@@ -158,6 +204,81 @@ body {
     flex-wrap: wrap;
 }
 
+#services {
+    height: 790px;
+    background-color: #70bfff;
+}
+
+
+
+.services_button {
+    width: 400px;
+    height: 100px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 4px 10px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 4px 10px rgba(0,0,0,.5);
+    box-shadow: 0 4px 10px rgba(0,0,0,.5);
+    margin-bottom: 20px;
+}
+    
+
+
+.services_button::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    height: 100px;
+    width: 1px;
+    right: 278px;
+    background: #9d9d9d;
+}
+
+
+/*
+ .services_button > p {
+    font-family: 'raleway-bold';
+    font-size: 20px;
+    line-height: 27px;
+    color: #262626;
+    padding-top: 38px;
+    width: 300px;
+    height: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+*/
+
+
+p.my-class {
+    width: 50%;
+    padding-top: 35px;
+    margin-bottom: -30px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+p.my-class.global {
+    padding-top: 25px;
+}
+
+img.pull-right-global {
+    float: right;
+    position: absolute;
+    top: 55%;
+    left: 66%;
+}
+
+.services_button > img {
+    padding-right: 26px;
+
+}
+
+.pull-right {
+    float: right!important;
+}
+
+/*
+
 .section-3 button {
     width: 400px;
     height: 100px;
@@ -172,6 +293,20 @@ body {
     line-height: 27px;
 }
 
+
+button.btn.btn-light:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    height: 100px;
+    width: 1px;
+    right: 293px;
+    background: #9d9d9d;
+}
+
+
+
+
 .section-3 button:first-child {
     margin: 180px 0 20px 0;
 }
@@ -180,15 +315,17 @@ body {
     margin: 20px 0 150px 0;
 }
 
+
+
 .section-3 button > img {
     width: 55px;
     height: 49px;
     margin-left: 65px;
-
 }
 
 .section-3 button > .text {
     padding-left: 54px;
+    
 }
 
 .section-3 button > .text-global-1 {
@@ -206,6 +343,7 @@ body {
     top: 57%;
     left: 56%;
 }
+*/
 
 
  
@@ -218,7 +356,7 @@ body {
 
 .section-4 {
     background-color: #ffe92f;
-    height: 1536px;
+    height: 100%;
 }
 
 
@@ -263,8 +401,6 @@ img.dish-5.img-fluid
 }
 
 
-
-
 .special > .photos-2 {
     margin-left: 165px;
     
@@ -295,6 +431,110 @@ img.dish-5.img-fluid
 
 }
 
+
+/* ----------------------------------------------- */
+
+/* SECTION-5 TRIAL-VERSION */
+
+/* ----------------------------------------------- */
+
+
+
+.row .section-1 {
+    position: relative;
+}
+
+
+
+.jumbotron-5 {
+    background-image: url(../img/s5.1bg.png);
+    max-width: 100%;
+    background-size: cover;
+    background-position: right;
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+
+.my-jumbotron-text {
+    letter-spacing: 0.35rem;
+}
+
+.section-1 p {
+    padding: 0 0 30px 165px;
+}
+
+h2.my-jumbotron-text-section {
+color: #262626;
+font-family: Raleway;
+font-size: 40px;
+font-weight: 700;
+line-height: 27px;
+padding-top: 145px;
+padding-bottom: 35px;
+}
+
+
+p.text-section-5 {
+    color: #262626;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    padding: 0 0 20px 0;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 53px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    opacity: 0.5;
+}
+
+.form-group {
+    border: 1px solid #262626;
+    width: 570px;
+    height: 55px;
+    margin: 0 0 163px 0;
+    opacity: 0.5;
+    color: #262626;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+button.btn.btn-primary-5 {
+    width: 170px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #96b92c;
+    border: 0;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    text-transform: uppercase;
+    
+    position: relative;
+    top: 70px;
+    right: 590px;
+    }
+
+.section-5 button:hover {
+    background-color:  #8eaf29;
+}
+
+
 /* ----------------------------------------------- */
 
 /* SECTION-5 */
@@ -306,7 +546,7 @@ img.dish-5.img-fluid
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 100%;
 }
 
 
@@ -387,7 +627,7 @@ img.dish-5.img-fluid
 
 .section-6 {
     background-color: #b07cf7;
-    height: 864px;   
+    height: 100%;   
 }
 
 .section-6 h2 {
@@ -416,18 +656,148 @@ img.dish-5.img-fluid
 .section-6 button {
     width: 200px;
     height: 55px;
-    position: absolute;
+    position: relative;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     background-color: #f72b3b;
     border: 1px solid #f72b3b;
-    top: -183px;
-    left: 44%;
-    margin: 0 0 225px 0;
+    top: 20%;
+    left: 2%;
+    margin: 50px 0 225px 0;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #f72b3b;
+    border: 1px solid #f72b3b;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    border: 1px solid #f72b3b;
+}
+
+
+.section-6 button:link,
+.section-6 button:active {
+    background-color: #f72b3b;
+    border: 1px solid #f72b3b;
 }
 
 .section-6 button:hover {
     background-color: #c62c38;
     border: 1px solid #f72b3b;
+}
+
+div.row.section6 > div.photo-s6-1 {
+    
+}
+ 
+div.photo-s6-1 {
+    margin-left: 99px;
+}
+
+
+div.photo-s6-2 {
+    margin-left: -120px;
+   
+}
+
+div.photo-s6-3 {
+    margin-right: 0px;
+    padding-right: 0;
+    margin-left: 35px;
+}
+
+div.phototo-1 {
+    background-image: url(../img/s6.1img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 2px 5px rgba(0,0,0,.5);
+    background-position: center;
+    width: 370px;
+    height: 310px;
+}
+  
+
+div.phototo-2 {
+    background-image: url(../img/s6.2img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 2px 5px rgba(0,0,0,.5);
+    background-position: center;
+    width: 370px;
+    height: 310px;
+}
+
+
+div.phototo-3 {
+    background-image: url(../img/s6.3img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 2px 5px rgba(0,0,0,.5);
+    background-position: center;
+    width: 370px;
+    height: 310px;
+}
+
+
+div.date {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0,0,0,0.4);
+    font-family: 'raleway-bold';
+    border-radius: 5px;
+    margin: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 100;
+    position: relative;
+    top: 8%;
+    left: 3%;
+}
+
+.date > p:first-child {
+    font-size: 32px;
+    padding-top: 3px;
+    padding-left: 3px;
+    line-height: 25px;
+}
+
+.date > p:last-child {
+    font-size: 24px;
+    padding-left: 1px;
+    line-height: 4px;
+}
+
+.blog_footer {
+    font-family: 'raleway-bold';
+    font-size: 20px;
+    color: #fff;
+    margin-top: 110px;
+    position: relative;
+    z-index: 100;
+}
+
+.blog_footer > p:first-child {
+    font-family: 'raleway-bold';
+    font-size: 20px;
+    color: #fff;
+    margin-top: 110px;
+    position: relative;
+    z-index: 100;
+    font-weight: bold;
+}
+
+.blog_footer > p:last-child {
+    font-family: 'raleway-light';
+    font-size: 13px;
+    color: #fff;
+    margin-top: 15px;
+    position: relative;
+    z-index: 100;
+    float: left;
+    padding-left: 10px;
 }
 
 /* ----------------------------------------------- */
@@ -441,7 +811,7 @@ img.dish-5.img-fluid
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 866px;
+    height: 100%;
 }
 
 .section-7 h2 {
@@ -500,6 +870,11 @@ img.dish-5.img-fluid
     line-height: 25px;
     background-color: #00c4c4;
     opacity: 0.5;
+    transition: .4s border-left;
+}
+
+.section-7 .form-control:hover {
+    border-left: 4px solid #355b82;
 }
 
 .section-7 textarea.form-control  {
@@ -518,6 +893,8 @@ img.dish-5.img-fluid
 }
 
 
+
+
 /* ----------------------------------------------- */
 
 /* FOOTER */
@@ -527,6 +904,7 @@ img.dish-5.img-fluid
 footer {
     background-color: #262626;
     color: #ffffff;
+    height: 100%;
 }
 
 .row {
