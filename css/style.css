@@ -28,6 +28,10 @@ body {
 
 
 
+
+
+
+
 /* ----------------------------------------------- */
 
 /* NAVBAR */
@@ -76,10 +80,6 @@ a.nav-link:hover {
 
 /* ----------------------------------------------- */
 
-.row .section-1 {
-    position: relative;
-}
-
 
 
 .jumbotron-fluid-1 {
@@ -94,7 +94,7 @@ a.nav-link:hover {
 
 .my-jumbotron-text {letter-spacing: 0.35rem;}
 
-.section-1 p {padding: 0 0 30px 165px;}
+.section-home p {padding: 0 0 30px 165px;}
 
 h2.my-jumbotron-text {    
     font-family: "Raleway - Heavy";
@@ -104,8 +104,7 @@ h2.my-jumbotron-text {
     padding: 258px 0 34px 0;
 }
 
-
-p.text-section-1 {
+p.text-section-home {
     color: #262626;
     font-family: Raleway;
     font-size: 17px;
@@ -114,49 +113,28 @@ p.text-section-1 {
     padding: 0 0 31px 0;
 }
 
-button.btn.btn-warning.section-1 {
-    width: 200px;
-    height: 55px;
-    background-color: #ff6033;
-    border: #ff6033;
-    text-transform: uppercase;
-    margin: 0 0 490px 0;
-    color: #ffffff;
-    font-family: Raleway;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 27px;
-    text-transform: uppercase;
-}
-button.btn.btn-warning.section-1:hover {
-    background-color: #d65632;
-    border: none;
-}
-
-img.scroll-section-1 {
+img.scroll-section-home {
     position: absolute;
     top: 850px;
     left: 50%;
     transform: translate(-50%,-50%);
     padding:  0 0 165px 0;
-
 }
 
 
+/* ----------------------------------------------- */
+
+/* SECTION-ABOUT */
 
 /* ----------------------------------------------- */
 
-/* SECTION-2 */
-
-/* ----------------------------------------------- */
-
-.section-2 {
+.section-about {
     background-color: #00bfbf;
     background-image: radial-gradient(circle 1125px at center, rgba(0, 196, 196, 0.9) 0%, rgba(0, 183, 183, 0.9) 32%, rgba(0, 173, 173, 0.9) 68%, rgba(0, 156, 156, 0.9) 100%);
     height: 100%;
 }
 
-.section-2 h2 {
+.section-about h2 {
     color: #ffffff;
     font-size: 90px;
     font-weight: 700;
@@ -165,7 +143,7 @@ img.scroll-section-1 {
     padding-bottom: 35px;
 }
 
-.section-2 p.lead {
+.section-about p.lead {
    color: #ffffff;
    font-family: Raleway;
    font-size: 17px;
@@ -175,18 +153,19 @@ img.scroll-section-1 {
 }
 
 
-/* ----------------------------------------------- */
-
-/* SECTION-3 */
 
 /* ----------------------------------------------- */
 
-.section-3 {
+/* SECTION-SERVICES */
+
+/* ----------------------------------------------- */
+
+.section-services {
     background-color: #70bfff;
     height: 100%; 
 }
 
-.section-3 h2 {
+.section-services h2 {
     color: #ffffff;
     font-family: Raleway;
     font-size: 90px;
@@ -194,9 +173,10 @@ img.scroll-section-1 {
     line-height: 27px;
     position: absolute;
     top: 50%;
-    left: 5%;
+    left: 17%;
 }
-.section-3 .col-md-6 {
+
+.section-services .col-md-6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -204,163 +184,50 @@ img.scroll-section-1 {
     flex-wrap: wrap;
 }
 
-#services {
-    height: 790px;
-    background-color: #70bfff;
-}
-
-
-
-.services_button {
-    width: 400px;
-    height: 100px;
-    background-color: #fff;
-    -webkit-box-shadow: 0 4px 10px rgba(0,0,0,.5);
-    -moz-box-shadow: 0 4px 10px rgba(0,0,0,.5);
-    box-shadow: 0 4px 10px rgba(0,0,0,.5);
-    margin-bottom: 20px;
-}
-    
-
-
-.services_button::before {
-    content: " ";
-    display: block;
-    position: absolute;
-    height: 100px;
-    width: 1px;
-    right: 278px;
-    background: #9d9d9d;
-}
-
-
-/*
- .services_button > p {
-    font-family: 'raleway-bold';
-    font-size: 20px;
-    line-height: 27px;
-    color: #262626;
-    padding-top: 38px;
-    width: 300px;
-    height: 100px;
-    vertical-align: middle;
-    text-align: center;
-}
-*/
-
-
-p.my-class {
+p.offer {
     width: 50%;
+    color: #000000;
+    font-weight: bold;
     padding-top: 35px;
     margin-bottom: -30px;
     text-align: center;
     margin-left: 70px;
 }
 
-p.my-class.global {
-    padding-top: 25px;
+
+a p.offer:hover{
+      text-decoration-color: #ffffff;
 }
+
+p.offer.global {padding-top: 25px;}
 
 img.pull-right-global {
     float: right;
     position: absolute;
-    top: 55%;
+    top: 53%;
     left: 66%;
 }
 
-.services_button > img {
-    padding-right: 26px;
+.pull-right {float: right!important;}
 
+img.title-photo {
+    margin-top: 100px;
+    margin-bottom: 180px;
 }
-
-.pull-right {
-    float: right!important;
-}
-
-/*
-
-.section-3 button {
-    width: 400px;
-    height: 100px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    background-color: #ffffff;
-    margin: 20px;
-
-    color: #262626;
-    font-family: Raleway;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 27px;
-}
-
-
-button.btn.btn-light:before {
-    content: " ";
-    display: block;
-    position: absolute;
-    height: 100px;
-    width: 1px;
-    right: 293px;
-    background: #9d9d9d;
-}
-
-
-
-
-.section-3 button:first-child {
-    margin: 180px 0 20px 0;
-}
-
-.section-3 button:last-child {
-    margin: 20px 0 150px 0;
-}
-
-
-
-.section-3 button > img {
-    width: 55px;
-    height: 49px;
-    margin-left: 65px;
-}
-
-.section-3 button > .text {
-    padding-left: 54px;
-    
-}
-
-.section-3 button > .text-global-1 {
-    margin-right: 76px;
-}
-
-.section-3 button > .text-global-2 {
-    margin-right: 91px;
-}
-
-
-.section-3  img.global {
-    margin-left: 58px;
-    position: absolute;
-    top: 57%;
-    left: 56%;
-}
-*/
-
-
- 
 
 /* ----------------------------------------------- */
 
-/* SECTION-4 */
+/* SECTION-GALLERY */
 
 /* ----------------------------------------------- */
 
-.section-4 {
+.section-gallery {
     background-color: #ffe92f;
     height: 100%;
 }
 
 
-.section-4 h2 {
+.section-gallery h2 {
     color: #262626;
     font-family: Raleway;
     font-size: 90px;
@@ -368,7 +235,7 @@ button.btn.btn-light:before {
     line-height: 27px;
     padding: 100px 0 30px 0;
 }
-.section-4 p {
+.section-gallery p {
     color: #262626;
     font-family: Raleway;
     font-size: 17px;
@@ -379,38 +246,30 @@ button.btn.btn-light:before {
 }
 
 
-.section-4 > .photo-1 {
+.section-gallery > .photo-1 {
     width: 770px;
     height: 550px;
     padding: 0;
     margin: 0 30px 0 179px;
 }
 
-.section-4 > .photos-1  img.dish-2 {
+.section-gallery > .photos-1  img.dish-2 {
     padding-bottom: -3px;
 }
 
-{
-    padding-top: 30px;
-}
+
 img.dish-3.img-fluid,
 img.dish-4.img-fluid,
 img.dish-5.img-fluid
-{
-    padding-top: 30px;
-}
+{padding-top: 30px;}
 
+.dishes > .photos-2 {margin-left: 165px;}
 
-.special > .photos-2 {
-    margin-left: 165px;
-    
-}
-
-.special-4 .col-md-6 > .dish-4 {
+.dishes .col-md-6 > .dish-4 {
      margin: 30px 30px 225px 165px;
 }
   
-.special-4 .col-md-6 > .dish-5 {
+.dishes .col-md-6 > .dish-5 {
     margin-top: 30px;
     margin-right: 165px;
     margin-left: -2px;
@@ -418,32 +277,11 @@ img.dish-5.img-fluid
 
 
 
-
-.special-4 button.btn-4 {
-    width: 200px;
-    height: 55px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    background-color: #5585a2;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin-bottom: 120px;
-    margin-top: 50px;
-
-}
-
-
 /* ----------------------------------------------- */
 
-/* SECTION-5 TRIAL-VERSION */
+/* SECTION-NEWSLETTER*/
 
 /* ----------------------------------------------- */
-
-
-
-.row .section-1 {
-    position: relative;
-}
-
 
 
 .jumbotron-5 {
@@ -512,36 +350,14 @@ p.text-section-5 {
     line-height: 27px;
 }
 
-button.btn.btn-primary-5 {
-    width: 170px;
-    height: 55px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    background-color: #96b92c;
-    border: 0;
-    color: #ffffff;
-    font-family: Raleway;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 27px;
-    text-transform: uppercase;
-    
-    position: relative;
-    top: 70px;
-    right: 590px;
-    }
-
-.section-5 button:hover {
-    background-color:  #8eaf29;
-}
-
 
 /* ----------------------------------------------- */
 
-/* SECTION-5 */
+/* SECTION-NEWSLETTER*/
 
 /* ----------------------------------------------- */
 
-.section-5 {
+.section-newsletter {
     background-image: url(../img/s5.1bg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -550,17 +366,17 @@ button.btn.btn-primary-5 {
 }
 
 
-.section-5 h2 {
+.section-newsletter h2 {
     color: #262626;
     font-family: Raleway;
     font-size: 40px;
     font-weight: 700;
     line-height: 27px;
-    margin: 0 0 34px 164px;
+    margin: 0 0 34px 0;
     padding-top: 145px;
 }
 
-.section-5 p.lead {
+.section-newsletter p.lead {
     color: #262626;
     font-family: Raleway;
     font-size: 17px;
@@ -569,10 +385,9 @@ button.btn.btn-primary-5 {
     margin-left: 163px;
 }
 
-
 .form-control {
     display: block;
-    width: 98%;
+    width: 100%;
     height: 53px;
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -583,12 +398,11 @@ button.btn.btn-primary-5 {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     opacity: 0.5;
 }
-.section-5 .form-group {
-  
+.section-newsletter .form-group {
     border: 1px solid #262626;
     width: 570px;
     height: 55px;
-    margin: 0 0 163px 165px;
+    margin: 0 0 163px 0px;
     opacity: 0.5;
     color: #262626;
     font-family: Raleway;
@@ -597,40 +411,21 @@ button.btn.btn-primary-5 {
     line-height: 27px;
 }
 
-.section-5 button {
-    width: 170px;
-    height: 55px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    background-color: #96b92c;
-    border: 0;
-    position: absolute;
-    top: 83%;
-    left: 104%;
-    margin-bottom: 163px;
-    
-    font-family: Raleway;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 27px;
-    text-transform: uppercase
-    }
 
-.section-5 button:hover {
-    background-color:  #8eaf29;
-}
 
 /* ----------------------------------------------- */
 
-/* SECTION-6 */
+/* SECTION-BLOG */
 
 /* ----------------------------------------------- */
 
-.section-6 {
+.section-blog {
     background-color: #b07cf7;
-    height: 100%;   
+    height: 100%; 
+    margin: 0;
 }
 
-.section-6 h2 {
+.section-blog h2 {
     color: #ffffff;
     font-family: Raleway;
     font-size: 90px;
@@ -639,7 +434,7 @@ button.btn.btn-primary-5 {
     padding: 100px 0 50px 0;
 }
 
-.section-6 p.lead {
+.section-blog p.lead {
     color: #ffffff;
     font-family: Raleway;
     font-size: 17px;
@@ -648,7 +443,7 @@ button.btn.btn-primary-5 {
     padding: 0 0 47px 0;
 }
 
-.section-6 > img.photo-s6 {
+.section-blog > img.photo-s6 {
     padding-bottom: 225px;
     background-color: black;
 }
@@ -806,7 +601,7 @@ div.date {
 
 /* ----------------------------------------------- */
 
-.section-7 {
+.section-contact {
     background-image: url(../img/s7.bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -814,7 +609,7 @@ div.date {
     height: 100%;
 }
 
-.section-7 h2 {
+.section-contact h2 {
     padding: 101px 0 48px 0;
     color: #262626;
     font-family: Raleway;
@@ -823,7 +618,7 @@ div.date {
     line-height: 25px;
 }
 
-.section-7 p.lead {
+.section-contact p.lead {
     padding: 0 0 46px 0;
     color: #262626;
     font-family: Raleway;
@@ -832,7 +627,7 @@ div.date {
     line-height: 25px;
 }
 
-.section-7 h5 {
+.section-contact h5 {
    font-family: Raleway;
    font-size: 20px;
    font-weight: 700;
@@ -840,7 +635,7 @@ div.date {
    padding: 0 0 2px 0;
 }
 
-.section-7 p.contact {
+.section-contact p.contact {
     color: #262626;
     font-family: Raleway;
     font-size: 20px;
@@ -849,16 +644,16 @@ div.date {
     padding: 0 0 10px 0;
 }
 
-.section-7 h5,
-.section-7 p.contact {
+.section-contact h5,
+.section-contact p.contact {
     margin: 0 0 0 170px;
 }
 
-.section-7 .form-control:first-of-type {
+.section-contact .form-control:first-of-type {
     font-weight: 700;
 }
 
-.section-7 .form-control {
+.section-contact .form-control {
     margin: 0 0 15px 165px;
     width: 500px;
     height: 50px;
@@ -873,11 +668,11 @@ div.date {
     transition: .4s border-left;
 }
 
-.section-7 .form-control:hover {
+.section-contact .form-control:hover {
     border-left: 4px solid #355b82;
 }
 
-.section-7 textarea.form-control  {
+.section-contact textarea.form-control  {
     resize: none;
     height: 250px;
     margin: 0 0 120px 165px;
@@ -888,7 +683,8 @@ div.date {
     line-height: 25px;
 }
 
-.section-7 textarea.form-control::placeholder {
+
+.section-contact textarea.form-control::placeholder {
     color: #ffffff;
 }
 
@@ -911,10 +707,13 @@ footer {
     max-width: 100%;
 }
 
+p.made {
+    margin-top: 34px;
+}
 
 footer .row  .text{
     float:left;
-    margin: 37px 295px 37px 165px;    color: #b9b9b9;
+    margin: 37px 78px 37px 165px;    color: #b9b9b9;
     font-family: Raleway;
     font-size: 16px;
     font-weight: 300;
@@ -922,7 +721,7 @@ footer .row  .text{
 }
 
 footer .row img {
-    margin: 32px 362px 32px 0;
+    margin: 32px 0px 32px 191px;
 }
 
 footer .row .author {
@@ -941,24 +740,84 @@ footer .row .author span {
     font-weight: 700;
 }
 
+/* BUTTONS */
 
-/* My Footer */
 
-.page-myfooter {
-    padding: 2em 1.5em;
-    background:  #e9ebee;
-    color: #0149a1;
-    text-align: right;
+button.btn.btn-light.section-1 {
+    width: 200px;
+    height: 55px;
+    background-color: #ff6033;
+    border: #ff6033;
+    text-transform: uppercase;
+    margin: 0 0 490px 0;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    text-transform: uppercase;
 }
 
-.page-myfooter p {
-	margin: 0 auto
+button.btn.btn-light.section-1:hover {
+    background-color: #d65632;
+    border: none;
 }
 
-.page-myfooter p  a {
-  color: #0149a1;
+.services-button {
+    width: 400px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,.5);
+    margin-bottom: 20px;
+}
+    
+.services-button::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    height: 100px;
+    width: 1px;
+    right: 278px;
+    background: #9d9d9d;
 }
 
-.page-myfooter p  a:hover {
-  opacity: 0.5;
+.services-button > img {
+    padding-right: 26px;
+
 }
+
+.dishes button.btn-4 {
+    width: 200px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #5585a2;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    margin-top: 50px;
+}
+
+button.btn.btn-primary-5 {
+    width: 170px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #96b92c;
+    border: 2px solid #96b92c;
+    border: 0;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    text-transform: uppercase;
+    
+    position: relative;
+    top: 70px;
+    right: 590px;
+    }
+
+.section-newsletter button:hover {
+    background-color:  #8eaf29;
+}
+
+
