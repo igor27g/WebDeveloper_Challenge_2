@@ -511,6 +511,7 @@ div.phototo-1 {
     background-position: center;
     width: 370px;
     height: 310px;
+    margin-left: 46px;
 }
   
 
@@ -522,6 +523,7 @@ div.phototo-2 {
     background-position: center;
     width: 370px;
     height: 310px;
+    margin-left: 80px;
 }
 
 
@@ -533,6 +535,7 @@ div.phototo-3 {
     background-position: center;
     width: 370px;
     height: 310px;
+    margin-left: 115px;
 }
 
 
@@ -582,6 +585,11 @@ div.date {
     position: relative;
     z-index: 100;
     font-weight: bold;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 32px;
+    margin-bottom: 0;
 }
 
 .blog_footer > p:last-child {
@@ -592,12 +600,20 @@ div.date {
     position: relative;
     z-index: 100;
     float: left;
-    padding-left: 10px;
+    padding-left: 21px;
 }
+
+
+button.blog-btn {
+    margin-bottom: 130px;
+    margin-top: 50px;
+}
+
+
 
 /* ----------------------------------------------- */
 
-/* SECTION-7 */
+/* SECTION-CONTACT */
 
 /* ----------------------------------------------- */
 
@@ -743,7 +759,7 @@ footer .row .author span {
 /* BUTTONS */
 
 
-button.btn.btn-light.section-1 {
+button.btn.btn-light.section-home {
     width: 200px;
     height: 55px;
     background-color: #ff6033;
