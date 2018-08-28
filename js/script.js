@@ -1,4 +1,4 @@
-// SMOOTH SCROLLING 
+// SMOOTH SCROLLING (from navbar to section)
 
 // Select all links with hashes
 $('a[href*="#"]')
@@ -38,20 +38,38 @@ $('a[href*="#"]')
   });
 
 
-// Scroll 
-
+// SCROLL
 
 $('img.scroll-section-home').click(function () {
    $('html, body').animate({scrollTop: $('#about').offset().top}, 1000); 
 });
 
-  // View more 
+// BUTTON (Get free now)
 
-$(function("#btn-show-hide1").click(function() {
-    $(this).html($(this).text)() == 'show less' ? 'view more' : 'show less');
-    $("#show-hide1").slideTogglee('slow');
+   $('#button-home').click(function() {
+    $('html,body').animate({
+        scrollTop: $('#contact').offset().top
+    }, 1000);
 });
- 
+
+// BUTTON (Subscribe us)
+
+   $('#button-newsletter').click(function() {
+    $('html,body').animate({
+        scrollTop: $('#contact').offset().top
+    }, 1000);
+});
+
+
+
+// BUTTONS (View-more for section:services and section:blog)
+
+$(function() {
+   $("#btn-show-hide1").click(function(){
+     $(this).html($(this).text() == 'show less' ? 'view more' : 'show less');
+       $("#show-hide1").slideToggle('slow');
+   });
+});
 
 $(function() {
 			$("#btn-show-hide2").click(function() {
