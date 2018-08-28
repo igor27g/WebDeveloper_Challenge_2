@@ -41,7 +41,22 @@ $('a[href*="#"]')
 // Scroll 
 
 
-$('img.scroll-section-1').click(function () {
+$('img.scroll-section-home').click(function () {
    $('html, body').animate({scrollTop: $('#about').offset().top}, 1000); 
 });
+
+  // View more 
+
+$(function("#btn-show-hide1").click(function() {
+    $(this).html($(this).text)() == 'show less' ? 'view more' : 'show less');
+    $("#show-hide1").slideTogglee('slow');
+});
+ 
+
+$(function() {
+			$("#btn-show-hide2").click(function() {
+				$(this).html($(this).text() == 'show less' ? 'view more' : 'show less');
+				$("#show-hide2").slideToggle('slow');
+			});
+		});
 

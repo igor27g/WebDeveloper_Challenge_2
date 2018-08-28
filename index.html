@@ -16,14 +16,16 @@
 
 
 <!--  Navigation  -->
-   <nav class="navbar navbar-expand-md navbar-default bg-light sticky-top ">   
-    <div class="container navigation-1">
-        <a class="navbar-brand"><img src="img/logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
+
+
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+   <div class="container navigation-1">
+   <img src="img/logo.png" alt="logo" class="navbar-brand">
+   <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+       <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a href="#home" class="nav-link">Home</a>
                 </li>
@@ -43,23 +45,22 @@
                     <a href="#contact" class="nav-link">Contact</a>
                 </li>
             </ul>
-        </div>
+   </div>
     </div>
 </nav>
-
+    
       
 <!-- ------------------------ SECTION HOME ------------------------ -->
-
   <section class="home">
    <div class="jumbotron jumbotron-fluid-1 my-jumbotron d-flex align-items-center" id="home">
              <div class="container my-jumbotron-slogan">
-              <h2 class="my-jumbotron-text">Fresh Life</h2>
-              <p class="text-section-home"> Sed do eiusmod tempor incididunt ut labore et<br>
+              <h2 class="my-jumbotron-text my-4">Fresh Life</h2>
+              <p class="text-section-home my-4"> Sed do eiusmod tempor incididunt ut labore et<br>
               dolore magna aliqua. Ut enim ad minim veniam,<br>
               quis nostrud exercitation ullamco.   
              </p>
-            <button class="btn btn-light section-home js--scroll-to-contact">Get Free Now </button>
-            <img src="img/scroll.png" alt="image-scroll" class="scroll-section-home">
+            <button class="btn btn-light section-home js--scroll-to-contact mt-4">Get Free Now </button>
+            <img src="img/scroll.png" alt="image-scroll" class="scroll-section-home">    
        </div>
    </div>
 </section>
@@ -70,12 +71,12 @@
 <section class="section-about">
 <div class="container-fluid"  id="about">
     <div class="row">
-        <div class="col-md-6  d-none d-lg-block">
-            <img src="img/img1s2.png">
+        <div class="col-md-12  col-lg-6 my-4">
+            <img src="img/img1s2.png" class="img-fluid">
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-6">
+        <div class="col-sm-12 col-md-12 col-lg-6 my-4  py-4">
             <h2>About Us</h2>
-            <p class="lead">
+            <p class="lead pt-3 pb-1">
                 Abore Cahee magna aliqua. Ut enim ad minim veniam, quis <br>
                  nostrud exercitation ullamco laboris nisi ut aliquip ex ea <br> commodo consequat. Duis aute irure dolor in reprehenderit  <br>
                 in voluptate velit esse cillum.
@@ -94,10 +95,10 @@
 <!-- ------------------------ SECTION SERVICES ------------------------ -->
 
 <section class="section-services">
-<div class="container-fluid "  id="scroll-services">
+<div class="container-fluid"  id="scroll-services">
      <div class="row section-3">
          <div class="col-sm-12 col-md-6"> 
-                <div class="services-button">
+                <div class="services-button button-1">
                     <p class="offer"> Online Shopping</p>
                     <img src="img/s3.1icon.png" alt="" class="pull-right img-fluid">
                 </div>         
@@ -115,7 +116,7 @@
                     <img src="img/s3.4icon.png" alt="" class="pull-right img-fluid">
                 </div>
          </div>
-         <div class="col-sm-12  col-md-6">
+         <div class="col-sm-12  col-md-6 pr-4">
             <h2>Our Services</h2>
             <img src="img/img1s3.png"  class="img-responsive title-photo img-fluid" alt="">
         </div>
@@ -130,7 +131,7 @@
 <section class="section-gallery">
     <div class="container-fluid"  id="gallery">
     <div class="col-sm-12">
-        <h2 class="col-sm-12 text-center">
+        <h2 class="col-sm-12 text-center mp-4">
             Gallery
         </h2>
         <p>
@@ -140,15 +141,15 @@
 
     <div class="container text-center">
         <div class="row text-center">
-            <div class="col-sm-12 col-md-12 col-lg-8">
+            <div class="col-sm-12 col-md-12 col-lg-8 mb-4">
                 <div class="row text-center">
                     <img src="img/s4.1img.jpg" alt="" class="dish-1 img-fluid">
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="row">
+                <div class="row gallery">
                     <img src="img/s4.2img.jpg" alt="" class="dish-2 img-fluid"> </div>
-                <div class="row">
+                <div class="row gallery">
                     <img src="img/s4.3img.jpg" alt="" class="dish-3 img-fluid"></div>
             </div>
         </div>
@@ -163,108 +164,124 @@
                     <img src="img/s4.5img.jpg" class="dish-5 img-fluid" alt="">
                 </div>
             </div>
-       
-                  <button type="button" class="btn btn-primary btn-4">View More</button>
+            
+          <button type="button" class="btn btn-primary btn-gallery">View More</button>
         </div>
     </div>
 </div>
+
 </section>
 
 
-
 <!-- ------------------------ SECTION NEWSLETTER ------------------------ -->
-
 <section class="section-newsletter">
     <div class="jumbotron-5 my-jumbotron d-flex align-items-center">
         <div class="container my-jumbotron-slogan">
-            <h2 class="my-jumbotron-text-section">Subscribe To Us</h2>
-            <p class="text-section"> Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+           <div class="col-sm-12 col-md-6 col-lg-6">
+                <h2 class="my-jumbotron-text-section my-4">Subscribe To Us</h2>
+            <p class="lead mb-4"> Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
             </p>
             <form>
                 <div class="form-group">
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email address...">
                 </div>
             </form>  
+           </div>
         </div>
         <button type="button" class="btn btn-primary-5">Subscribe</button>
     </div>
 </section>
 
 
-<!-- Section-6 -->
-<section class="section-blog">
-    <div class="container-fluid section-blog" id="blog">
-    <div class="col-12 text-center">
-        <h2>Blog</h2>
-        <p class="lead">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br>
-        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure<br>
-        dolor in reprehenderit in voluptate velit.</p>
-    </div>
-
-
-
-<div class="row section-blog text-center">
-     <div class="col-sm-12 col-md-12 col-lg-4 mb-4 photo-s6-1">
-        <div class="phototo-1">
-            <div class="date">
-            <p>20</p>
-            <p>NOV</p>
-        </div>
-        <div class="blog_footer">
-            <p>Green Smoothies: Too Much of a Good Thing?</p>
-            <p>By Auskteez - 2 hours ago</p>
-        </div>
-        </div>
-    </div>
-     <div class="col-sm-12 col-md-12 col-lg-4 mb-4 photo-s6-2">
-           <div class="phototo-2">
-            <div class="date">
-            <p>14</p>
-            <p>NOV</p>
-        </div>
-        <div class="blog_footer">
-            <p>Growing Food and a “Thirst” for Innovation</p>
-            <p>By Auskteez - 3 hours ago</p>
-        </div>
-        </div>  
-        </div>
-    <div class="col-sm-12 col-md-12 col-lg-4 mb-4 photo-s6-2">
-           <div class="phototo-3">
-            <div class="date">
-            <p>10</p>
-            <p>NOV</p>
-        </div>
-        <div class="blog_footer">
-            <p>Pesticides & Food: What You Need to Know</p>
-            <p>By Auskteez - 6 hours ago</p>
-        </div>
-        </div>  
-        </div>
-
- <div class="col-12 text-center">
-            <button type="button" class="btn btn-primary blog-btn">View More</button>
-        </div>
-    </div>   
-    </div>
-</section>
-
+<!-- ------------------------ SECTION BLOG ------------------------------ -->
+	<section  class="section-blog" id="blog">
+		<div class="container text-center">
+			<h2>Blog</h2>
+			    <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure<br> dolor in reprehenderit in voluptate velit.</p>
+			<div class="row">
+				<div class="col-sm-12 col-md-4">
+					<a href="#" class="post-blog">
+						<img src="img/s6.1img.png" alt="smoothie" class="img-responsive">
+						<span class="post-date">20 nov</span>
+						<div class="post-title">
+							<h4>Green Smoothies: Too Much of a Good Thing?</h4>
+							<p class="post-author">By Auskteez - 2 hours ago</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<a href="#" class="post-blog">
+						<img src="img/s6.2img.jpg" alt="bean" class="img-responsive">
+						<span class="post-date">14 nov</span>
+						<div class="post-title">
+							<h4>Growing Food and a "Thirst" for Innovation</h4>
+							<p class="post-author">By Auskteez - 3 hours ago</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<a href="#" class="post-blog">
+						<img src="img/s6.3img.jpg" alt="raspberries" class="img-responsive">
+						<span class="post-date">10 nov</span>
+						<div class="post-title">
+							<h4>Pesticides & Food: What You Need to Know</h4>
+							<p class="post-author">By Auskteez - 6 hours ago</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row" id="show-hide2">
+				<div class="col-sm-12 col-md-4">
+					<a href="#" class="post-blog">
+						<img src="img/smoothie.png" alt="smoothie" class="img-responsive">
+						<span class="post-date">20 nov</span>
+						<div class="post-title">
+							<h4>Green Smoothies: Too Much of a Good Thing?</h4>
+							<p class="post-author">By Auskteez - 2 hours ago</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<a href="#" class="post-blog">
+						<img src="img/bean.png" alt="bean" class="img-responsive">
+						<span class="post-date">14 nov</span>
+						<div class="post-title">
+							<h4>Growing Food and a "Thirst" for Innovation</h4>
+							<p class="post-author">By Auskteez - 3 hours ago</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<a href="#" class="post-blog">
+						<img src="img/raspberries2.png" alt="raspberries" class="img-responsive">
+						<span class="post-date">10 nov</span>
+						<div class="post-title">
+							<h4>Pesticides & Food: What You Need to Know</h4>
+							<p class="post-author">By Auskteez - 6 hours ago</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<button type="submit" class="btn btn-default btn-lg" id="btn-show-hide2">view more</button>
+		</div>
 
 
 <!-- ------------------------ SECTION CONTACT ------------------------ -->
 <section class="contact">
     <div class="container-fluid section-contact" id="contact">
-        <div class="col-12 text-center">
-            <h2>Contact</h2>
+      <div class="container">
+        <div class="col-12 text-center contact">
+            <h2 class="contact">Contact</h2>
             <p class="lead">For new projects, ideas, business or anything<br> you'd like to discuss, contact with me!</p>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 <input class="form-control first name" type="text" value="Your name" id="example-text-input">
                 <input class="form-control" type="email" value="Your email" id="example-email-input">
                 <input class="form-control" type="tel" value="Your phone number..." id="example-tel-input">
-                <textarea class="form-control" type="text" placeholder="Your message..." id="exampleFormControlTextarea1" rows=4></textarea>
+                <textarea class="form-control your-text" type="text" placeholder="Your message..." id="exampleFormControlTextarea1" rows=4></textarea>
             </div>
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                 <h5>Address</h5>
                 <p class="contact">123 City name,Street,City,Country</p>
                 <h5>Email</h5>
@@ -273,31 +290,34 @@
                 <p class="contact phone">+012 345 6789</p>
             </div>
         </div>
-    </div>
+      </div>
+  
+        </div>
 </section>
 
 
-
 <!-- FOOTER  -->
-  <footer>
-      <div class="row">
-            <div class="col-sm-12 col-md-4">
-                 <div class="text">
-             <p>
-             &copy;2015 Company. All right reserved
-             </p>
-          </div>
-            </div> 
-            <div class="col-sm-12 col-md-4">
-                  <img src="img/footer.logo-small.png">
+<footer>
+    <div class="container">
+        <div class="row footer">
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="text text-center">
+                    <p>
+                        &copy;2015 Company. All right reserved
+                    </p>
+                </div>
             </div>
-            <div class="col-sm-12 col-md-4">
-              <div class="author">
-                <p class="made">Made with <span>love</span> by Auskteez</p>
-              </div>
-            </div>              
-      </div>                                                           
-  </footer>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+                <img src="img/footer.logo-small.png" class="img-fluid">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="author text-center">
+                    <p class="made">Made with <span>love</span> by Auskteez</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
     
     
 
