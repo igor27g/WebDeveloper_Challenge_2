@@ -1,0 +1,16 @@
+ section.home h2 {
+       animation-delay: .7s;
+       animation-duration: 1.5s;
+}    
+
+
+button.btn.btn-primary-5 {
+    animation-delay: 2s;
+    animation-duration: 3s;
+}
+
+
+.js--wp-3 {
+    animation-delay: .7s;
+    animation-duration: 1s;
+}
