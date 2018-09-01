@@ -12,8 +12,8 @@
 WebDeveloper Challenge 2. In this project I use HTML5, CSS3, Bootstrap4, JavaScript and jQuery.
 
 ## Screenshots
-![Example screenshot](img/screenshots/screenshoot1.png);
-![Example screenshot](img/screenshots/screenshoot2.png);
+![Example screenshoot](img/screenshoots/screenshoot1.png);
+![Example screenshoot](img/screenshoots/screenshoot2.png);
 
 
 ## Technologies
