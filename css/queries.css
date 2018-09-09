@@ -1,0 +1,503 @@
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... 
+*/
+    
+@media only screen and (max-width:992px) {
+    
+    html,
+    body{
+    width:100%;
+    overflow-x:hidden;
+  }
+  
+    /*  SECTION-ABOUT   */
+    
+    .section-about h2 {
+    text-align: center;
+    margin: 115px 0 35px 130px;
+    padding-bottom: 30px;
+    font-size: 73px;
+    }
+    
+    .section-about p.lead {
+    text-align: center;
+    margin: 0 0 10px 133px;
+}
+    
+    .section-about p.lead:last-child {
+    text-align: center;
+    margin: 0 0 40px 133px;
+}
+    
+    /* SECTION-SERVICES    */
+    
+    .services-button::before {right: 145px;}
+    
+    img.pull-right-global {left: 74%;}
+  
+    .section-services h2 {
+    font-size: 63px;
+    left: 15%;
+}
+     
+    img.title-photo {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+    
+    /* SECTION-GALLERY  */
+    
+
+    
+    img.dish-2,
+    img.dish-3,
+    img.dish-4,
+    img.dish-5 {
+        margin: 0 auto;
+    }
+    
+    /* SECTION-NEWSLETTER */
+    
+    .section-newsletter h2 {
+    color: #bfbbbb;
+    text-align: center;
+    margin-left: 160px;
+    }
+    
+    p.text-section {
+    color: #bfbbbb;
+    text-align: center;
+    font-weight: 700;
+    margin-left: 153px;
+    }
+    
+    
+    .section-newsletter .form-group {
+    border: 1px solid #262626;
+    width: 539px;
+    margin: 0 0 163px 151px;
+    }
+    
+    .form-control {width: 100%;}
+        
+
+    button.btn.btn-primary-5 {
+    width: 200px;
+    height: 66px;
+    top: 164px;
+    right: 400px;
+    }
+    
+    /* SECTION-NEWSLETTER */
+    
+    .section-newsletter .form-control:first-of-type {  
+    font-weight: 700;
+    margin-left: 30px;
+}
+    
+/*    tutaj zobacz czy jest okej te sekcje*/
+    
+   .section-newsletter .form-control {
+    margin: 0 0 15px 30px;
+}
+    
+    
+   /*  SECTION-BLOG */
+    
+    div.phototo-1 {
+    margin-left: -115px;
+}
+    div.phototo-2 {
+    margin-left: 10px;
+    }
+    
+    div.phototo-3 {
+    margin-left: 135px;
+    }
+    
+    div.phototo-1,
+    div.phototo-2,
+    div.phototo-3 {
+    width: 310px;
+    height: 250px;
+}
+    
+    .blog_footer > p:first-child {
+    margin-top: -8px;
+    padding-top: 0;
+}
+    .blog_footer > p:last-child {margin-top: 1px;}
+    
+   /* SECTION-CONTACT  */
+    
+    
+    .section-contact .form-control {
+    margin: 0 0 15px 83px;
+   
+}
+    
+    .section-contact textarea.form-control {
+    margin: 0 0 120px 83px;
+}
+    
+    .section-contact h5, .section-contact p.contact {
+    margin: 0 0 0 197px;
+    }
+    
+
+   /* FOOTER  */
+    
+    footer .row .text {margin: 38px 17px 37px 47px;}
+    
+    footer .row img {margin: 32px 0px 32px 123px;}
+    
+    p.made {
+    margin-right: -103px;
+    margin-left: 63px;
+}
+    
+    
+    @media only screen and (max-width:768px) { 
+     
+        
+    /*  SECTION-HOME  */
+    
+    .jumbotron-fluid-1 {height: 100vh;}    
+    
+    h2.my-jumbotron-text {
+    font-size: 75px;
+    text-align: center;
+    padding: 380px 0 45px 0;
+}
+  
+    p.text-section-home {padding: 20px 0 31px 170px;}
+    
+    button.btn.btn-light.section-home {
+    width: 230px;
+    height: 70px;
+    margin: 50px 0 380px 215px;
+    font-size: 22px;
+}
+        
+    img.scroll-section-home {top: 617px;}
+      
+    /*  SECTION-ABOUT  */
+    
+    .section-about h2 {margin: 115px 0 35px 0px;}
+        
+    .section-about p.lead {margin: 0 0 10px 0px;}
+        
+    .section-about p.lead:last-child {margin: 0 0 115px 0px;}
+        
+    /* SECTION-SERVICES  */
+    
+    .section-services h2 {font-size: 55px;}
+        
+    .services-button {width: 300px;}
+    
+    p.offer {margin-left: 28px;}
+        
+    p.offer.global {padding-top: 14px;}
+        
+    img.pull-right-global {left: 69%;}
+    
+        
+    /*  SECTION-GALLERY  */
+        
+    img.dish-1 {margin-left: 37px;}
+        
+    img.dish-2 {margin-top: 28px;}
+        
+    img.dish-2,
+    img.dish-3 {
+    margin-left: 170px;
+    }
+    
+    img.dish-4,
+    img.dish-5 {
+    margin-left: 76px;        
+        }
+        
+        
+    /*  SECTION-NEWSLETTER  */
+
+        
+    .section-newsletter h2 {margin-left: 136px;}
+        
+    p.text-section {margin-left: 96px;}
+        
+    .section-newsletter .form-group {margin: 0 0 163px 98px;}
+        
+    button.btn.btn-primary-5 {
+    top: 205px;
+    right: 355px;
+    font-size: 26px;
+    margin-bottom: 30px;
+}   
+    /* SECTION-BLOG */
+        
+    div.phototo-1 {margin-left: 110px;}
+    
+    div.phototo-2,
+    div.phototo-3 {
+    margin-left: 328px;
+    }
+        
+     
+    /* SECTION-CONTACT    */
+     
+    .section-contact h5 {font-size: 22px;}
+
+    .section-contact .form-control {margin: 0 0 15px 15px;}
+    
+    .section-contact textarea.form-control {margin: 0 0 120px 15px;}
+    
+    .section-contact h5, .section-contact p.contact {margin: 0 0 0 170px;}
+
+
+    }
+    
+    @media only screen and (max-width:568px) {
+    
+        
+     html,
+     body{
+    width:100%;
+    overflow-x:hidden;
+  }
+        
+        
+    /* SECTION-HOME    */
+        
+    section.home{
+    width: 680px;
+    height: 484px;}    
+    
+    h2.my-jumbotron-text {
+    margin-top: 325px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 100px;
+    padding: 0;
+    }
+        
+    p.text-section-home {padding: 25px 0 10px 87px;}
+              
+    button.btn.btn-light.section-1 {margin: 30px 0 190px 185px;}
+        
+    button.btn.btn-light.section-home {
+    margin: 50px 0 380px 122px;
+}
+        
+   img.scroll-section-home {
+    transform: translate(-50%,-60%);
+    padding: 0 0 120px 0;
+}
+    
+    /* SECTION-ABOUT  */
+        
+    .section-about {width: 680px;}
+    
+   .section-about h2 {margin: 115px 60px 35px 0px;}
+    
+    .section-about p.lead {margin: 0 45px 10px 0px;}    
+    
+    .section-about p.lead:last-child {margin: 0 40px 85px 0px;}
+    
+    /* SECTION-SERVICE */
+        
+    .section-services {width: 680px;}
+        
+.services-button:first-of-type {
+    margin-top: 50px;
+
+    margin-right: 94px;
+}
+        
+        .services-button {
+    margin-right: 94px;
+}
+        
+    .services-button::before {right: 318px;}
+        
+    img.pull-right-global {
+    left: 54%;
+    top: 59%;
+    }
+        
+    img.title-photo {margin-right: 75px;}
+        
+    .section-services h2 {
+    font-size: 85px;
+    margin-left: -45px;
+    } 
+        
+        
+    /* SECTION-GALLERY  */
+        
+    .section-gallery {width: 680px;} 
+        
+        
+    .section-gallery h2 {margin-left: -43px;}
+        
+    .section-gallery p {margin-right: 100px;}
+        
+
+    img.dish-1 {
+        margin-left: 35px;
+        width: 80%;
+        height: auto;
+    }
+        
+    img.dish-2, img.dish-3 {margin-left: 86px;}
+        
+    img.dish-4, img.dish-5 {
+    width: 80%;
+    margin-left: 34px;}
+            
+    /* SECTION-NEWSLETTER */
+    
+    .section-newsletter {width: 680px;}
+        
+    .section-newsletter h2 {
+    margin-left: 0px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+        
+
+    p.text-section {
+    margin-left: 0;
+    font-size: 13px;
+    margin-right: 24px;
+}
+        
+    .section-newsletter .form-group {
+    margin: 0 0 163px 49px;
+}   
+        
+        
+   /* SECTION-CONTACT  */ 
+        
+   .section-contact {width: 680px;}
+        
+   .section-contact .form-control {margin: 0 0 15px 76px;}
+        
+   .section-contact textarea.form-control {margin: 0 0 120px 75px;}
+        
+    .section-contact h5, .section-contact p.contact {
+    text-align: center;
+    font-size: 30px;
+    margin-right: 145px;
+    margin-bottom: 10px;
+    }
+      
+    .section-contact  p.contact {font-size: 25px;}
+    
+    p.contact.phone {margin-bottom: 60px;}
+        
+   
+   /*    FOOTER   */
+        
+   footer {width: 680px;}
+        
+   footer .row .text {
+   margin: 50px 17px 0 180px;
+   font-size: 23px;
+}
+    
+    footer .row img {margin: 32px 310px;}
+        
+    p.made {
+    margin: 30px 166px;
+    font-size: 23px;
+    }
+        
+    p.made {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 23px;
+    margin-left: 54px;
+}
+    
+    footer .row .author {
+    margin-right: 0;
+    margin-left: 145px;
+    text-align: center;
+}
+    
+    @media only screen and (max-width:568px) { 
+    
+    /*   SECTION-HOME */
+    img.scroll-section-1 {transform: translate(480%,-129%);}
+    
+    /*   SECTION-NEWSLETTER     */
+        
+    .section-newsletter .form-group {margin: 0 0 163px 0px;}
+        
+    button.btn.btn-primary-5 {margin-bottom: 80px;}
+    
+    /* SECTION-GALLERY   */
+        
+    div.phototo-1 {margin-left: 0px;}
+        
+    div.phototo-2, 
+    div.phototo-3 {
+    margin-left: 219px;
+    }
+        
+        
+    /* SECTION-CONTACT */
+        
+    .section-contact .form-control {margin: 0 0 15px 25px;}
+        
+    .section-contact textarea.form-control {margin: 0 0 120px 25px;}
+        
+    .section-contact h5, .section-contact p.contact {margin-right: 285px;}
+    
+    /* FOOTER */
+        
+    footer .row .text {margin: 50px 17px 0 124px;}
+        
+    footer .row img {margin: 32px 241px;}
+        
+    p.made {
+    margin-right: 220px;
+    margin-left: 0px;
+    }
+        
+    .section-contact h2 {margin-right: 110px;}
+        
+    .section-contact p.lead {padding: 0 100px 43px 0px;}
+        
+        
+    }
+        
+        
+    @media only screen and (max-width:375px) { 
+
+     h2.my-jumbotron-text {
+     font-size: 57px;
+     margin-right: 294px;
+     }
+        
+    p.text-section-home {
+        font-size: 2px;
+        }
+
+     }
+        
+    
