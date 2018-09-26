@@ -280,9 +280,6 @@ img.title-photo {
     .section-services h2 {left: 10%;}
     
     
-    .services-button::before {right: 204px !important; }
-    
-    
     img.pull-global {left: 69%;
     top:58%;}
   
@@ -300,7 +297,6 @@ img.title-photo {
     left: 74%;
     top: 53% }
     
-    .services-button::before {right: 154px !important;}
     
 }
 
@@ -313,10 +309,6 @@ img.title-photo {
     
     p.offer {margin-left: 40px;}
     
-    .services-button::before {
-     right: 126px !important;
-     height: 14.8%;  !important;
-    }
      
     img.pull-global {
         top: 54%;
@@ -885,17 +877,7 @@ button.btn.btn-light.section-home:hover {
     margin-bottom: 20px;
 }
 
-    
-.services-button::before {
-    content: " ";
-    display: block;
-    position: absolute;
-    height: 12.4%;
-    width: 1px;
-    right: 278px;
-    background: #9d9d9d;
-}
-
+  
 .services-button > img {
     padding-right: 26px;
 
